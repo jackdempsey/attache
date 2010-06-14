@@ -1,8 +1,8 @@
 Description:
-    Explain the generator
+    This generator installs the CSS from Toupee: http://github.com/marchdoe/toupee
 
 Example:
-    rails generate attache Thing
+    rails generate attache
 
     This will create:
-        what/will/it/create
+        public/stylesheets/toupee/{typography,reset,modules,grid,forms,buttons,base}.css
