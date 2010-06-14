@@ -1,0 +1,4 @@
+Attache is a simple rails 3 generator used to copy into place the CSS framework "Toupee.":http://github.com/marchdoe/toupee
+
+
+h2. More to come
