@@ -3,6 +3,8 @@ class AttacheGenerator < Rails::Generators::Base
 
   def install_css
     empty_directory "public/stylesheets/toupee"
-    copy_file "toupee/typography.css", "public/stylesheets/toupee/typography.css"
+    %w(base buttons forms grid modules reset typography).each do |component|
+      copy_file "toupee/#{component}.css", "public/stylesheets/toupee/#{component}.css"
+    end
   end
 end
